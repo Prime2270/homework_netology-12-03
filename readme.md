@@ -6,7 +6,7 @@
 и заканчиваются на “a” и не содержат пробелов.
 
 ```
-SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT LIKE 'K% %a';
+SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT LIKE '% %';
 ```
 
 ![job1](https://github.com/Prime2270/homework_netology-12-03/blob/main/screenshots/job1.png)
